@@ -5,16 +5,20 @@ import ClassComponent from '../components/ClassComponent'
 import FunctionComponent from '../components/FunctionComponent'
 import Card from '../components/Card'
 import HellowComponent from '../components/HellowComponent'
+import Home from '../components/Home'
 
 function App() {
   const [count, setCount] = useState(0)
   const nombres = ["Juan","Sofia","Belén","Fer","Diego"]
   return (
     <>            
+      <Home />
+      {/*<ClassComponent />
+      <FunctionComponent />
       <HellowComponent nombre = {nombres[0]}/>
       <HellowComponent nombre = {nombres[1]}/>
       <HellowComponent nombre = {nombres[2]}/>
-      <HellowComponent nombre = {nombres[3]}/>      
+    <HellowComponent nombre = {nombres[3]}/>  */}
     </>
   )
 }
