@@ -11,8 +11,10 @@ function App() {
   const [count, setCount] = useState(0)
   const nombres = ["Juan","Sofia","Belén","Fer","Diego"]
   return (
-    <>            
-      <Home />
+    <>   
+    <ClassComponent />         
+    <FunctionComponent />
+      {/* <Home />*/}
       {/*<ClassComponent />
       <FunctionComponent />
       <HellowComponent nombre = {nombres[0]}/>
