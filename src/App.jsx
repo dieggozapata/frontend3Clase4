@@ -12,15 +12,15 @@ function App() {
   const nombres = ["Juan","Sofia","Belén","Fer","Diego"]
   return (
     <>   
-    <ClassComponent />         
-    <FunctionComponent />
-      {/* <Home />*/}
-      {/*<ClassComponent />
+      <ClassComponent />         
       <FunctionComponent />
-      <HellowComponent nombre = {nombres[0]}/>
-      <HellowComponent nombre = {nombres[1]}/>
-      <HellowComponent nombre = {nombres[2]}/>
-    <HellowComponent nombre = {nombres[3]}/>  */}
+        {/* <Home />*/}
+        {/*<ClassComponent />
+        <FunctionComponent />
+        <HellowComponent nombre = {nombres[0]}/>
+        <HellowComponent nombre = {nombres[1]}/>
+        <HellowComponent nombre = {nombres[2]}/>
+      <HellowComponent nombre = {nombres[3]}/>  */}
     </>
   )
 }
